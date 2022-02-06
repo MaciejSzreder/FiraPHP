@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1644170893
+ModificationTime: 1644171695
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8280,7 +8280,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1114046 38 14
+WinInfo: 0 38 14
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
 BeginChars: 1114556 2030
 
@@ -88703,7 +88703,7 @@ EndChar
 StartChar: equal_equal.liga
 Encoding: 1114404 -1 1387
 Width: 1200
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -102592,70 +102592,23 @@ EndChar
 StartChar: equal
 Encoding: 61 61 1578
 Width: 1200
-Flags: W
-TtInstrs:
-NPUSHB
- 45
- 4
- 1
- 1
- 0
- 0
- 3
- 1
- 0
- 103
- 5
- 1
- 3
- 2
- 2
- 3
- 87
- 5
- 1
- 3
- 3
- 2
- 95
- 0
- 2
- 3
- 2
- 79
- 4
- 4
- 0
- 0
- 4
- 7
- 4
- 7
- 6
- 5
- 0
- 3
- 0
- 3
- 17
- 6
- 9
- 23
-CALL
-EndTTInstrs
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
-989 884 m 1,0,-1
- 989 739 l 1,1,-1
- 211 739 l 1,2,-1
- 211 884 l 1,3,-1
- 989 884 l 1,0,-1
-989 505 m 1,4,-1
- 989 359 l 1,5,-1
- 211 359 l 1,6,-1
- 211 505 l 1,7,-1
- 989 505 l 1,4,-1
+1085 359 m 1,0,-1
+ 1085 504 l 1,1,-1
+ 89 504 l 1,2,-1
+ 89 504 l 1,3,-1
+ 497 269 l 5,4,-1
+ 497 359 l 1,5,-1
+ 1085 359 l 1,0,-1
+1085 792 m 1,6,-1
+ 1085 647 l 1,7,-1
+ 89 647 l 1,8,-1
+ 497 882 l 5,9,-1
+ 497 792 l 1,10,-1
+ 1085 792 l 1,6,-1
 EndSplineSet
 Substitution2: "Podtablica Podstawienie pojedyncze w tablicy 402" period_equal.cv32
 Substitution2: "Podtablica Podstawienie pojedyncze w tablicy 385" equal.spacer
