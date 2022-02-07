@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: FiraCode-Regular
-FullName: Fira Code Regular
-FamilyName: Fira Code
+FontName: FiraPHP-Regular
+FullName: Fira PHP Regular
+FamilyName: Fira PHP-Regular
 Weight: Book
 Copyright: Copyright 2014-2021 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
 Version: 6.002
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1644171695
+ModificationTime: 1644191322
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -464,6 +464,7 @@ Lookup: 260 0 0 "'mark' Pozycjonowanie diakrytycznych w tablicy 0" { "Podtablica
 Lookup: 260 0 0 "'mark' Pozycjonowanie diakrytycznych w tablicy 1" { "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 262 16 0 "'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" { "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 262 65552 0 "'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3" { "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
+MarkAttachClasses: 1
 MarkAttachSets: 2
 "ZestawDiakrytycznych-0" 23 uni0345 uni0326 uni0327
 "ZestawDiakrytycznych-1" 133 uni0342 uni0308 uni0307 gravecomb acutecomb uni030B uni0302 uni030C uni0306 uni030A tildecomb uni0304 uni0305 uni030F uni0313 uni0314
@@ -8272,7 +8273,7 @@ ShortTable: maxp 16
   3
   3
 EndShort
-LangName: 1033 "" "" "" "6.002;CTDB;FiraCode-Regular" "" "Version 6.002" "" "Fira Mono is a trademark of The Mozilla Corporation." "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov" "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov" "" "https://tonsky.me" "https://tonsky.me" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "6.002;CTDB;FiraCode-Regular" "" "Version 6.002" "" "Fira Mono is a trademark of The Mozilla Corporation." "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov" "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov" "" "https://tonsky.me" "https://tonsky.me" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Fira PHP" "Regular" "" "" "" "Fira PHP" "Regular"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -8280,7 +8281,9 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 14
+WinInfo: 2166 38 14
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
 BeginChars: 1114556 2030
 
