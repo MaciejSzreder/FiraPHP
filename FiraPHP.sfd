@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1644281482
+ModificationTime: 1644364520
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8281,7 +8281,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1114046 38 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
@@ -71713,6 +71713,7 @@ SplineSet
  -395 -179 l 1
 EndSplineSet
 Refer: 1387 -1 S 1 0 0 1 0 0 2
+Validated: 5
 Substitution2: "Podtablica 'ss08' Styl 8 w tablicy 332" exclam_equal.ss08
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" exclam_equal.ss08
 EndChar
@@ -89958,7 +89959,7 @@ EndChar
 StartChar: equal_equal.liga
 Encoding: 1114404 -1 1387
 Width: 1200
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -90005,6 +90006,7 @@ SplineSet
  576 320 576 320 494 274.5 c 132,-1,51
  412 229 412 229 299 229 c 4,26,27
 EndSplineSet
+Validated: 1
 Substitution2: "Podtablica 'ss08' Styl 8 w tablicy 332" equal_equal.ss08
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" equal_equal.ss08
 EndChar
@@ -91168,6 +91170,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1135 -1 S 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: less_less.liga
@@ -92293,7 +92296,6 @@ LayerCount: 2
 Fore
 Refer: 1608 37 N 1 0 0 1 -1145 0 2
 Refer: 1608 37 N 1 0 0 1 -55 0 2
-Validated: 1
 Substitution2: "Podtablica 'cv18' Character Variants 18 w tablicy 378" percent_percent.liga.cv18
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" percent_percent.liga.cv18
 EndChar
@@ -103760,19 +103762,19 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-676 1091 m 1,0,-1
- 676 692 l 1,1,-1
- 1069 692 l 1,2,-1
- 1069 551 l 1,3,-1
- 676 551 l 1,4,-1
- 676 155 l 1,5,-1
- 519 155 l 1,6,-1
- 519 551 l 1,7,-1
- 131 551 l 1,8,-1
- 131 692 l 1,9,-1
- 519 692 l 1,10,-1
- 519 1091 l 1,11,-1
- 676 1091 l 1,0,-1
+676 1091 m 5,0,-1
+ 676 692 l 5,1,-1
+ 1069 692 l 5,2,-1
+ 1069 551 l 5,3,-1
+ 676 551 l 5,4,-1
+ 676 155 l 5,5,-1
+ 519 155 l 5,6,-1
+ 519 551 l 5,7,-1
+ 131 551 l 5,8,-1
+ 131 692 l 5,9,-1
+ 519 692 l 5,10,-1
+ 519 1091 l 5,11,-1
+ 676 1091 l 5,0,-1
 EndSplineSet
 Validated: 1
 Substitution2: "Podtablica 'sinf' Naukowe frakcje dolne w tablicy 359" uni208A
@@ -105995,456 +105997,34 @@ EndChar
 StartChar: percent
 Encoding: 37 37 1608
 Width: 1200
-Flags: W
-TtInstrs:
-NPUSHB
- 10
- 1
- 1
- 2
- 0
- 3
- 1
- 5
- 7
- 2
- 76
-MPPEM
-PUSHB_1
- 10
-LT
-IF
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 63
- 5
- 78
-ELSE
-MPPEM
-PUSHB_1
- 14
-LT
-IF
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 57
- 5
- 78
-ELSE
-MPPEM
-PUSHB_1
- 16
-LT
-IF
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 63
- 5
- 78
-ELSE
-MPPEM
-PUSHB_1
- 19
-LT
-IF
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 57
- 5
- 78
-ELSE
-MPPEM
-PUSHB_1
- 23
-LT
-IF
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 63
- 5
- 78
-ELSE
-MPPEM
-PUSHB_1
- 25
-LT
-IF
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 57
- 5
- 78
-ELSE
-NPUSHB
- 41
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 105
- 10
- 1
- 4
- 11
- 1
- 6
- 7
- 4
- 6
- 105
- 9
- 1
- 2
- 2
- 0
- 97
- 8
- 1
- 0
- 0
- 62
- 77
- 0
- 7
- 7
- 5
- 97
- 0
- 5
- 5
- 63
- 5
- 78
-EIF
-EIF
-EIF
-EIF
-EIF
-EIF
-NPUSHB
- 35
- 49
- 48
- 33
- 32
- 21
- 20
- 5
- 4
- 55
- 53
- 48
- 59
- 49
- 59
- 41
- 39
- 32
- 47
- 33
- 47
- 27
- 25
- 20
- 31
- 21
- 31
- 13
- 11
- 4
- 19
- 5
- 19
- 12
- 9
- 22
-CALL
-EndTTInstrs
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
-1009 1414 m 1,0,-1
- 1117 1344 l 1,1,-1
- 170 -40 l 1,2,-1
- 65 30 l 1,3,-1
- 1009 1414 l 1,0,-1
-332 1399 m 0,4,5
- 426 1399 426 1399 491 1355 c 128,-1,6
- 556 1311 556 1311 590.5 1238 c 128,-1,7
- 625 1165 625 1165 625 1079 c 0,8,9
- 625 994 625 994 590.5 920 c 128,-1,10
- 556 846 556 846 491 801 c 128,-1,11
- 426 756 426 756 332 756 c 0,12,13
- 239 756 239 756 173 801 c 128,-1,14
- 107 846 107 846 72 920 c 128,-1,15
- 37 994 37 994 37 1079 c 0,16,17
- 37 1166 37 1166 72 1238.5 c 128,-1,18
- 107 1311 107 1311 173 1355 c 128,-1,19
- 239 1399 239 1399 332 1399 c 0,4,5
-332 1279 m 0,20,21
- 273 1279 273 1279 232 1230 c 128,-1,22
- 191 1181 191 1181 191 1079 c 0,23,24
- 191 981 191 981 231 927.5 c 128,-1,25
- 271 874 271 874 332 874 c 0,26,27
- 392 874 392 874 431.5 923 c 128,-1,28
- 471 972 471 972 471 1079 c 0,29,30
- 471 1187 471 1187 431.5 1233 c 128,-1,31
- 392 1279 392 1279 332 1279 c 0,20,21
-872 632 m 0,32,33
- 966 632 966 632 1031 587.5 c 128,-1,34
- 1096 543 1096 543 1130.5 470 c 128,-1,35
- 1165 397 1165 397 1165 311 c 0,36,37
- 1165 226 1165 226 1130.5 152.5 c 128,-1,38
- 1096 79 1096 79 1031 33.5 c 128,-1,39
- 966 -12 966 -12 872 -12 c 0,40,41
- 779 -12 779 -12 713 33.5 c 128,-1,42
- 647 79 647 79 612 152.5 c 128,-1,43
- 577 226 577 226 577 311 c 0,44,45
- 577 398 577 398 612 471 c 128,-1,46
- 647 544 647 544 713 588 c 128,-1,47
- 779 632 779 632 872 632 c 0,32,33
-872 511 m 0,48,49
- 813 511 813 511 772 463.5 c 128,-1,50
- 731 416 731 416 731 311 c 0,51,52
- 731 214 731 214 771 160 c 128,-1,53
- 811 106 811 106 872 106 c 0,54,55
- 932 106 932 106 971.5 155 c 128,-1,56
- 1011 204 1011 204 1011 311 c 0,57,58
- 1011 419 1011 419 971.5 465 c 128,-1,59
- 932 511 932 511 872 511 c 0,48,49
+598.25 308.0625 m 0,0,1
+ 553 307.75 553 307.75 523.625 284.662109375 c 0,2,3
+ 494 261.25 494 261.25 494 203.8125 c 0,4,5
+ 494 147.25 494 147.25 523.625 122.25 c 0,6,7
+ 554 96.75 554 96.75 598.25 96.9375 c 0,8,9
+ 644 97.25 644 97.25 674 124.875 c 0,10,11
+ 704 152.75 704 152.75 704 203.8125 c 0,12,13
+ 704 258.25 704 258.25 673.25 283.875 c 0,14,15
+ 643.5 308.75 643.5 308.75 598.25 308.0625 c 0,0,1
+599.75 1148.74023438 m 0,16,17
+ 557 1149.25 557 1149.25 524.75 1122.70507812 c 0,18,19
+ 494 1097.25 494 1097.25 494 1044.79003906 c 0,20,21
+ 494 994.25 494 994.25 524 966.25 c 128,-1,22
+ 554 938.25 554 938.25 599.75 938.259765625 c 0,23,24
+ 644 938.25 644 938.25 674.375 964.294921875 c 0,25,26
+ 704 989.75 704 989.75 704 1044.79003906 c 0,27,28
+ 704 1100.75 704 1100.75 674.375 1124.25390625 c 0,29,30
+ 644 1148.25 644 1148.25 599.75 1148.74023438 c 0,16,17
+1200 690.559570312 m 1,31,-1
+ 1202.6171875 551.884765625 l 1,32,-1
+ 0.9345703125 551.709960938 l 1,33,-1
+ 0 694.901367188 l 1,34,-1
+ 1200 690.559570312 l 1,31,-1
 EndSplineSet
-Validated: 1
 Substitution2: "Podtablica 'cv18' Character Variants 18 w tablicy 378" percent.cv18
 Substitution2: "Podtablica Podstawienie pojedyncze w tablicy 220" percent.spacer
 Substitution2: "Podtablica Podstawienie pojedyncze w tablicy 219" percent_percent.liga
