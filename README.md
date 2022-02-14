@@ -17,6 +17,11 @@ Fira PHP is Fira Code modyfication adaptet to PHP language.
 ### Main Changes
 To suggest that you might use wrong operator, the differences between =, == and === was increased.
 
+
+|Fira Mono|Fira Code|Fira PHP|
+|-|-|-|
+| <img alt="Fira Mono.png" src="./Fira Mono.png"> | <img alt="Fira Mono.png" src="./Fira Code.png"> | <img alt="Fira Mono.png" src="./Fira PHP.png"> |
+
 ### Other Changes
 
 
