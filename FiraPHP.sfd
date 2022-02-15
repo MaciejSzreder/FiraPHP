@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1644625818
+ModificationTime: 1644889954
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,6 +57,7 @@ OS2XHeight: 1053
 OS2Vendor: 'CTDB'
 OS2CodePages: 6000009f.dfd70000
 OS2UnicodeRanges: e00002ef.1201f9fb.02002038.00000000
+Lookup: 4 0 1 "'liga' Ligatury zwyk+AUIA-e w tablicy 0" { "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1"  } ['liga' ('DFLT' <'dflt' > 'cans' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" { "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 1" { "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 1"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 1 0 0 "'subs' Frakcja dolna w tablicy 2" { "Podtablica 'subs' Frakcja dolna w tablicy 2" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
@@ -8285,7 +8286,7 @@ WinInfo: 1114046 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
-BeginChars: 1114556 2030
+BeginChars: 1114557 2031
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -69971,9 +69972,9 @@ LayerCount: 2
 Fore
 SplineSet
 -132 855 m 1029
--753 435 m 1
+-753 435 m 1,1,-1
  -645 564 l 1025
--123 97 m 1
+-123 97 m 1,3,-1
  -240 413 l 1025
 EndSplineSet
 Refer: 1221 45 S 1 0 0 1 -504 116 2
@@ -71660,11 +71661,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--395 -179 m 1
- -529 -112 l 1
- 399 1442 l 1
- 529 1377 l 1
- -395 -179 l 1
+-395 -179 m 1,0,-1
+ -529 -112 l 1,1,-1
+ 399 1442 l 1,2,-1
+ 529 1377 l 1,3,-1
+ -395 -179 l 1,0,-1
 EndSplineSet
 Refer: 1387 -1 S 1 0 0 1 0 0 2
 Validated: 5
@@ -90028,7 +90029,7 @@ EndChar
 StartChar: greater_greater.liga
 Encoding: 1114407 -1 1390
 Width: 1200
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -134606,6 +134607,57 @@ LayerCount: 2
 Fore
 Refer: 2027 -1 N 1 0 0 1 -2 252 2
 Validated: 1
+EndChar
+
+StartChar: plus_equal
+Encoding: 1114556 -1 2030
+Width: 2400
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+738 -93 m 1
+ -35 223 l 1
+ 738 539 l 1
+ 558.148598582 345.16015625 l 1
+ 871.004882812 345.16015625 l 2
+ 1019 345 1019 345 1124.56542969 450.130859375 c 0
+ 1230 555 1230 555 1229.56933594 703.291015625 c 0
+ 1230 819 1230 819 1124.56542969 956.451171875 c 0
+ 1044 1061 1044 1061 871.405273438 1061.45605469 c 0
+ 612.997958666 1064.37841508 612.997958666 1064.37841508 355 1062.96777344 c 0
+ 178 1062 178 1062 0 1062 c 1
+ 0 1139 l 1
+ 198 1141 198 1141 358 1139.79785156 c 0
+ 725 1137 725 1137 871.405273438 1138.20410156 c 0
+ 1050 1139 1050 1139 1178.81347656 1010.70019531 c 0
+ 1306 885 1306 885 1306.31738281 703.291015625 c 0
+ 1307 525 1307 525 1178.81347656 395.883789062 c 0
+ 1052 268 1052 268 871.405273438 268.37890625 c 2
+ 558 268.37890625 l 1
+ 558 178.584960938 l 1
+ 871.927734375 178.584960938 l 2
+ 1089 178 1089 178 1243.33007812 332.633789062 c 0
+ 1397 487 1397 487 1397.37890625 704.03515625 c 0
+ 1397 921 1397 921 1243.33007812 1075.4375 c 0
+ 1089 1229 1089 1229 871.927734375 1229.48632812 c 0
+ 613.998217504 1232.23893045 613.998217504 1232.23893045 356 1230.9140625 c 0
+ 178 1230 178 1230 0 1230 c 1
+ 0 1307 l 2
+ 2.00040238392 1308.01657167 2.00040238392 1308.01657167 356 1307.36816406 c 0
+ 829 1307 829 1307 871.419921875 1306.58007812 c 0
+ 1120 1307 1120 1307 1297.34082031 1129.91992188 c 0
+ 1474 953 1474 953 1474 704 c 0
+ 1474 455 1474 455 1297.34082031 278.080078125 c 0
+ 1121 101 1121 101 871.419921875 101.419921875 c 2
+ 558 101.419921875 l 1
+ 558 101 l 1
+ 738 -93 l 1
+EndSplineSet
+Refer: 1574 43 N 0.8 0 0 0.8 1367 202.6 2
+Validated: 524325
+LCarets2: 1 0
+Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" plus equal
 EndChar
 EndChars
 EndSplineFont
