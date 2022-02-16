@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1644975000
+ModificationTime: 1645057434
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8286,7 +8286,7 @@ WinInfo: 1520 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
-BeginChars: 2033 2033
+BeginChars: 2034 2034
 
 StartChar: .notdef
 Encoding: 1586 -1 0
@@ -134680,6 +134680,18 @@ Refer: 2031 -1 N 1 0 0 1 0 0 2
 Refer: 1221 45 S 1 0 0 0.993151 1271 82.7877 2
 Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" hyphen equal
 LCarets2: 1 0
+EndChar
+
+StartChar: asterisk_equal
+Encoding: 2033 -1 2033
+Width: 2400
+LayerCount: 2
+Fore
+Refer: 2031 -1 N 1 0 0 1 0 0 2
+Refer: 1145 42 S 1 0 0 1 1300 -3 2
+Validated: 5
+LCarets2: 1 0
+Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" asterisk equal
 EndChar
 EndChars
 EndSplineFont
