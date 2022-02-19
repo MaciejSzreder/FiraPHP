@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1645233729
+ModificationTime: 1645295402
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8282,11 +8282,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1520 38 14
+WinInfo: 1920 16 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
-BeginChars: 2036 2036
+BeginChars: 2037 2037
 
 StartChar: .notdef
 Encoding: 1586 -1 0
@@ -71669,7 +71669,6 @@ SplineSet
  -395 -179 l 1,0,-1
 EndSplineSet
 Refer: 1387 -1 S 1 0 0 1 0 0 2
-Validated: 5
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" exclam_equal.ss08
 Substitution2: "Podtablica 'ss08' Styl 8 w tablicy 332" exclam_equal.ss08
 EndChar
@@ -72763,7 +72762,6 @@ LayerCount: 2
 Fore
 Refer: 1145 42 S 1 0 0 1 -1052 556 2
 Refer: 1145 42 S 1 0 0 1 -148 556 2
-Validated: 5
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" asterisk_asterisk.liga.cv16
 Substitution2: "Podtablica 'cv16' Character Variants 16 w tablicy 376" asterisk_asterisk.liga.cv16
 EndChar
@@ -91021,7 +91019,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1135 -1 S 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: less_less.liga
@@ -134692,7 +134689,6 @@ LayerCount: 2
 Fore
 Refer: 2031 -1 N 1 0 0 1 0 0 2
 Refer: 1145 42 S 1 0 0 1 1300 -3 2
-Validated: 5
 Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" asterisk equal
 LCarets2: 1 0
 EndChar
@@ -134717,9 +134713,20 @@ LayerCount: 2
 Fore
 Refer: 1146 -1 S 1 0 0 1 2352 -559 2
 Refer: 2031 -1 N 1 0 0 1 0 0 2
-Validated: 5
 Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" asterisk asterisk equal
 LCarets2: 2 0 0
+EndChar
+
+StartChar: percent_equal
+Encoding: 2036 -1 2036
+Width: 2400
+UnlinkRmOvrlpSave: 1
+LayerCount: 2
+Fore
+Refer: 2031 -1 N 1 0 0 1 0 0 2
+Refer: 1608 37 S 1 0 0 1 1167 79 2
+LCarets2: 1 0
+Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" percent equal
 EndChar
 EndChars
 EndSplineFont
