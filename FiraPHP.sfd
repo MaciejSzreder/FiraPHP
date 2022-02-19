@@ -71657,6 +71657,7 @@ EndChar
 StartChar: exclam_equal.liga
 Encoding: 1765 -1 1135
 Width: 1200
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -71669,8 +71670,8 @@ SplineSet
 EndSplineSet
 Refer: 1387 -1 S 1 0 0 1 0 0 2
 Validated: 5
-Substitution2: "Podtablica 'ss08' Styl 8 w tablicy 332" exclam_equal.ss08
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" exclam_equal.ss08
+Substitution2: "Podtablica 'ss08' Styl 8 w tablicy 332" exclam_equal.ss08
 EndChar
 
 StartChar: exclam_equal_equal.liga
@@ -72756,14 +72757,15 @@ EndChar
 StartChar: asterisk_asterisk.liga
 Encoding: 1770 -1 1146
 Width: 1200
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
 Refer: 1145 42 S 1 0 0 1 -1052 556 2
 Refer: 1145 42 S 1 0 0 1 -148 556 2
 Validated: 5
-Substitution2: "Podtablica 'cv16' Character Variants 16 w tablicy 376" asterisk_asterisk.liga.cv16
 Substitution2: "Podtablica 'aalt' Dost+ARkA-p do wszystkich alternatyw w tablicy 0" asterisk_asterisk.liga.cv16
+Substitution2: "Podtablica 'cv16' Character Variants 16 w tablicy 376" asterisk_asterisk.liga.cv16
 EndChar
 
 StartChar: asterisk_asterisk_asterisk.liga
@@ -134685,13 +134687,14 @@ EndChar
 StartChar: asterisk_equal
 Encoding: 2033 -1 2033
 Width: 2400
+UnlinkRmOvrlpSave: 1
 LayerCount: 2
 Fore
 Refer: 2031 -1 N 1 0 0 1 0 0 2
 Refer: 1145 42 S 1 0 0 1 1300 -3 2
 Validated: 5
-LCarets2: 1 0
 Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" asterisk equal
+LCarets2: 1 0
 EndChar
 
 StartChar: slash_equal
