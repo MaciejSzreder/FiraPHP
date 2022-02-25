@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1638550126
-ModificationTime: 1645693192
+ModificationTime: 1645791766
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8286,7 +8286,7 @@ WinInfo: 1920 16 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Kotwica-0" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 0" "Kotwica-1" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-2" "Podtablica 'mark' Pozycjonowanie diakrytycznych w tablicy 1" "Kotwica-3" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 2" "Kotwica-4" "Podtablica 'mkmk' Wzajemne po+AUIA-o+AXwA-enie diakrytycznych w tablicy 3"
-BeginChars: 2038 2038
+BeginChars: 2039 2039
 
 StartChar: .notdef
 Encoding: 1586 -1 0
@@ -134732,7 +134732,7 @@ EndChar
 StartChar: greater_greater_equal
 Encoding: 2037 -1 2037
 Width: 3600
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -134788,6 +134788,65 @@ EndSplineSet
 Validated: 41
 LCarets2: 2 0 0
 Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" greater greater equal
+EndChar
+
+StartChar: less_less_equal
+Encoding: 2038 -1 2038
+Width: 3600
+LayerCount: 2
+Fore
+SplineSet
+762 972 m 1,0,-1
+ 552 1182 l 1,1,-1
+ 762 1392 l 1,2,-1
+ 210 1392 l 1,3,-1
+ 0 1182 l 1,4,-1
+ 210 972 l 1,5,-1
+ 762 972 l 1,0,-1
+1866 972 m 1,6,-1
+ 1656 1182 l 1,7,-1
+ 1866 1392 l 1,8,-1
+ 1314 1392 l 1,9,-1
+ 1104 1182 l 1,10,-1
+ 1314 972 l 1,11,-1
+ 1866 972 l 1,6,-1
+2970 972 m 1,12,-1
+ 2760 1182 l 1,13,-1
+ 2970 1392 l 1,14,-1
+ 2418 1392 l 1,15,-1
+ 2208 1182 l 1,16,-1
+ 2418 972 l 1,17,-1
+ 2970 972 l 1,12,-1
+1020 12 m 1,18,-1
+ 1230 222 l 1,19,-1
+ 1020 432 l 1,20,-1
+ 1572 432 l 1,21,-1
+ 1782 222 l 1,22,-1
+ 1572 12 l 1,23,-1
+ 1020 12 l 1,18,-1
+2124 12 m 1,24,-1
+ 2334 222 l 1,25,-1
+ 2124 432 l 1,26,-1
+ 2676 432 l 1,27,-1
+ 2886 222 l 1,28,-1
+ 2676 12 l 1,29,-1
+ 2124 12 l 1,24,-1
+3201.52246094 129.634765625 m 1,30,-1
+ 3311.39550781 445.274414062 l 1,31,32
+ 3171 491 3171 491 3031.95019531 537.853515625 c 1,33,34
+ 3236 608 3236 608 3161.03222656 806.322265625 c 1,35,-1
+ 3304.61328125 1034.81835938 l 1,36,-1
+ 3572.71972656 788.924804688 l 1,37,38
+ 3667 304 3667 304 3201.52246094 129.634765625 c 1,30,-1
+758 559 m 1,39,-1
+ -35 223 l 1,40,-1
+ 758 -113 l 1,41,-1
+ 468 222 l 1,42,-1
+ 758 559 l 1,39,-1
+EndSplineSet
+Validated: 524329
+LCarets2: 2 0 0
+Ligature2: "'liga' Ligatury zwyk+AUIA-e w tablicy 0-1" less less equal
 EndChar
 EndChars
 EndSplineFont
